@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.ftpupload.net
         username: epiz_33014970
-        password: ${{ Kunci.hv5qFITkx3G }}
+        password: ${{ yah00$GITHUB.hv5qFITkx3G }}
