@@ -1,0 +1,792 @@
+CRITICAL - 2022-10-24 04:56:26 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(44): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 04:58:18 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(44): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:03:16 --> Call to undefined method App\Models\produkModel::produkStokStokis
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\Model->__call('produkStokStoki...', Array)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-24 05:03:40 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\stokisapp\system\Model.php on line 728 and at least 2 expected
+#0 C:\xampp\htdocs\stokisapp\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join('stok')
+#1 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(14): CodeIgniter\Model->__call('join', Array)
+#2 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-10-24 05:05:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`stokis`.`id_stokis`
+JOIN `produk` ON `produk`.`id_produk` =`=` `stok`.`id_pr...' at line 3
+CRITICAL - 2022-10-24 05:05:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`stokis`.`id_stokis`
+JOIN `produk` ON `produk`.`id_produk` =`=` `stok`.`id_pr...' at line 3
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:07:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`stokis`.`id_stokis`
+JOIN `produk` ON `produk`.`id_produk` =`=` `stokis`.`id_...' at line 3
+CRITICAL - 2022-10-24 05:07:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`stokis`.`id_stokis`
+JOIN `produk` ON `produk`.`id_produk` =`=` `stokis`.`id_...' at line 3
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:09:23 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:09:23 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:10:09 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:10:09 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:10:35 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:10:35 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:11:17 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:11:17 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(15): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:11:29 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:11:29 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 363)
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(15): CodeIgniter\BaseModel->find(363)
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk(363)
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-24 05:13:39 --> Unknown column 'stokis.id' in 'where clause'
+CRITICAL - 2022-10-24 05:13:39 --> Unknown column 'stokis.id' in 'where clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '363')
+#6 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(16): CodeIgniter\BaseModel->find('363')
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisStokProduk('363')
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-24 05:14:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(44): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:15:19 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:15:57 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:16:32 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:17:23 --> Call to undefined method App\Models\stokisModel::ProdukStokStokis
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\Model->__call('ProdukStokStoki...', Array)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-24 05:17:48 --> Call to undefined method App\Models\stokisModel::ProdukStokStokis
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\Model->__call('ProdukStokStoki...', Array)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-24 05:18:07 --> Call to undefined method App\Models\stokisModel::ProdukStokStokis
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\Model->__call('ProdukStokStoki...', Array)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-24 05:18:22 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-24 05:19:24 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:19:24 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '363')
+#6 C:\xampp\htdocs\stokisapp\app\Models\produkModel.php(24): CodeIgniter\BaseModel->find('363')
+#7 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\produkModel->ProdukStokStokis('363')
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-24 05:19:39 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:19:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:22:19 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:22:37 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:23:19 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\stokisapp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\stokisapp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\prod...')
+#2 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\prod...')
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(809): App\Controllers\admin->__construct()
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-24 05:23:29 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-24 05:24:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':363: ESCAPE '!'
+AND `produk`.`id_produk` = :produk.id_produk:' at line 5
+CRITICAL - 2022-10-24 05:24:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':363: ESCAPE '!'
+AND `produk`.`id_produk` = :produk.id_produk:' at line 5
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '363')
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->find('363')
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-24 05:24:12 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:33:22 --> Undefined array key "stok"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-24 05:39:15 --> Unknown column 'stokis.id_stok' in 'on clause'
+CRITICAL - 2022-10-24 05:39:15 --> Unknown column 'stokis.id_stok' in 'on clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-24 05:39:38 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 05:47:37 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 05:49:41 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::like(), 0 passed in C:\xampp\htdocs\stokisapp\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\stokisapp\system\Model.php(728): CodeIgniter\Database\BaseBuilder->like()
+#1 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(17): CodeIgniter\Model->__call('like', Array)
+#2 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisProdukStok(363)
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-24 05:49:55 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-10-24 05:50:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:id_stokis` = 363: ESCAPE '!'' at line 5
+CRITICAL - 2022-10-24 05:50:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:id_stokis` = 363: ESCAPE '!'' at line 5
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:50:57 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:50:57 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:51:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 363' at line 5
+CRITICAL - 2022-10-24 05:51:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 363' at line 5
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:51:35 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:51:35 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:51:43 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:51:43 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:51:51 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:51:51 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:54:41 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:54:41 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:57:25 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:57:25 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:57:46 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:57:46 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 05:59:15 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 05:59:15 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:00:07 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:00:07 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-24 06:00:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-24 06:00:33 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:00:33 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:03:07 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:03:07 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-24 06:03:23 --> Call to undefined method App\Models\stokisModel::finAll
+#0 C:\xampp\htdocs\stokisapp\app\Models\stokisModel.php(18): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): App\Models\stokisModel->StokisProdukStok(363)
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-10-24 06:03:37 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-10-24 06:03:55 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-24 06:06:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(46): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-24 06:06:48 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:06:48 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:07:05 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:07:05 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:07:17 --> Unknown column 'produk.id_stokis' in 'on clause'
+CRITICAL - 2022-10-24 06:07:17 --> Unknown column 'produk.id_stokis' in 'on clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:07:45 --> Unknown column 'produk.id_stokis' in 'on clause'
+CRITICAL - 2022-10-24 06:07:45 --> Unknown column 'produk.id_stokis' in 'on clause'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-10-24 06:08:16 --> Column 'id_stokis' in where clause is ambiguous
+CRITICAL - 2022-10-24 06:08:16 --> Column 'id_stokis' in where clause is ambiguous
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#8 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-24 06:19:06 --> Undefined array key "qty"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(45): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 06:19:30 --> Undefined array key "qty"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(45): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-24 06:20:57 --> Undefined array key "qty"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\admin\stok.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/admin/sto...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(45): view('pages/admin/sto...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stok()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,346 @@
+CRITICAL - 2022-10-28 20:55:00 --> Undefined variable $idProduk
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:55:38 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:56:15 --> Undefined array key "id"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:56:39 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:57:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:57:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 20:58:31 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:00:08 --> Undefined variable $idroduk
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:00:19 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:00:25 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:01:13 --> join(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): join('7', '363')
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:01:41 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:04:17 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\stokisapp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/stok')
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/stok')
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:04:20 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\stokisapp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/stok')
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/stok')
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:04:52 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\stokisapp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/stok')
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/stok')
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:14:00 --> Undefined array key "id_produk"
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 21:18:45 --> Allowed fields must be specified for model: App\Models\stokModel
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\stok...')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-28 21:19:33 --> Allowed fields must be specified for model: App\Models\stokModel
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\stok...')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-28 21:21:41 --> Allowed fields must be specified for model: App\Models\stokModel
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\stok...')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-10-28 21:26:33 --> Allowed fields must be specified for model: App\Models\stokModel
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\stok...')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-10-28 21:30:28 --> Duplicate entry '363-1' for key 'PRIMARY'
+CRITICAL - 2022-10-28 21:30:28 --> Duplicate entry '363-1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#11 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-28 21:31:41 --> There is no data to update.
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 21:31:52 --> There is no data to update.
+#0 C:\xampp\htdocs\stokisapp\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\stokisapp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\stokisapp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-10-28 21:32:19 --> Duplicate entry '363-1' for key 'PRIMARY'
+CRITICAL - 2022-10-28 21:32:19 --> Duplicate entry '363-1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#11 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-10-28 21:33:16 --> Duplicate entry '363-1' for key 'PRIMARY'
+CRITICAL - 2022-10-28 21:33:16 --> Duplicate entry '363-1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\stokisapp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\stokisapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\stokisapp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\stokisapp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\stokisapp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\stokisapp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\stokisapp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\stokisapp\app\Controllers\admin.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\admin->stokAdd()
+#10 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#11 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-28 23:22:04 --> Invalid file: layout/template/user.php
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(34): view('index', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:24:29 --> Invalid file: layout/template/user.php
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(34): view('index', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:24:32 --> Invalid file: layout/template/user.php
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(34): view('index', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:25:48 --> Call to undefined method App\Models\produkModel::produkStokStokis
+#0 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(41): CodeIgniter\Model->__call('produkStokStoki...', Array)
+#1 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#2 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-10-28 23:26:41 --> Cannot use object of type App\Models\produkModel as array
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(45): view('pages/user/deta...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:27:12 --> Cannot use object of type App\Models\produkModel as array
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(47): view('pages/user/deta...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:28:56 --> Cannot use object of type App\Models\produkModel as array
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(47): view('pages/user/deta...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:29:15 --> Cannot use object of type App\Models\produkModel as array
+#0 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#3 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(47): view('pages/user/deta...', Array)
+#4 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 23:29:33 --> Undefined array key "alamat"
+#0 C:\xampp\htdocs\stokisapp\app\Views\pages\user\detail.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\stokisapp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\stokisapp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\stokisapp\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\stokisapp\app\Controllers\Home.php(47): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(832): App\Controllers\Home->detail('1')
+#6 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\stokisapp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\stokisapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\stokisapp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
