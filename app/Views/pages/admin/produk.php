@@ -5,7 +5,7 @@
 <div class="col mb-30">
     <div class="card-style">
         <h6 class="card-title mb-25">Detail Produk</h6>
-        <form action="/admin/simpanProduk/<?= ($produkDetail == null) ? "" : $produkDetail['id_produk']; ?>" method="POST" enctype="multipart/form-data">
+        <form action="/admin/produkSave/<?= ($produkDetail == null) ? "" : $produkDetail['id_produk']; ?>" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <div class="col-6">
                     <div class="col-12">
@@ -118,7 +118,7 @@
                             </td>
                             <td>
                                 <div class="action">
-                                    <a class="text-danger mx-1" href="/admin/hapusProduk/<?= $produk['id_produk']; ?>">
+                                    <a class="text-danger mx-1" href="/admin/produkDelete/<?= $produk['id_produk']; ?>">
                                         <i class="lni lni-trash-can"></i>
                                     </a>
                                     <a class="text-success mx-1" href="/admin/Produk/<?= $produk['id_produk']; ?>">
