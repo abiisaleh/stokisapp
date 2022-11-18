@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: ftpupload.net
-        server-dir: /htdocs/
+        server-dir: /htdocs/stokisapp
         username: epiz_33014970
         password: ${{ secrets.kunci }}
