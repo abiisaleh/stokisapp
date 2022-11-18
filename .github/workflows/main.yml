@@ -13,5 +13,5 @@ jobs:
       with:
         server: ftpupload.net
         server-dir: /htdocs/stokisapp/
-        username: epiz_33014970
+        username: epiz_33027630
         password: ${{ secrets.kunci }}
