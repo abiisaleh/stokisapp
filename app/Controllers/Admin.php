@@ -113,10 +113,10 @@ class Admin extends BaseController
         //ambil nama file
         $namaFile = $filegambar->getName();
         //compres image dan simpan
-        \Config\Services::image('gd')->withFile($filegambar)->resize(80, 80, true, 'height')->save('assets\images\products\thumb' . $namaFile, 90);
-        \Config\Services::image('gd')->withFile($filegambar)->resize(200, 200, true, 'height')->save('assets\images\products\small' . $namaFile, 90);
+        \Config\Services::image('gd')->withFile($filegambar)->resize(80, 80, true, 'height')->save(ROOTPATH.'assets\images\products\thumb' . $namaFile, 90);
+        \Config\Services::image('gd')->withFile($filegambar)->resize(200, 200, true, 'height')->save(ROOTPATH.'assets\images\products\small' . $namaFile, 90);
         //get real size for detail
-        $filegambar->move('assets\images\stokisapp\products', null, true);
+        $filegambar->move(ROOTPATH.'assets\images\stokisapp\products', $namaFile, true);
 
         $this->produkModel->save([
             'id_produk' => $id,
