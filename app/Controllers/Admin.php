@@ -106,7 +106,7 @@ class Admin extends BaseController
         return view('pages/admin/produk', $data);
     }
 
-    public function produkSave()
+    public function produkSave($id)
     {
         //admbil filegambar
         $filegambar = $this->request->getFile('gambar');
