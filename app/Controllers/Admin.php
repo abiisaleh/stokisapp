@@ -6,7 +6,7 @@ use App\Models\produkModel;
 use App\Models\stokisModel;
 use App\Models\stokModel;
 
-class admin extends BaseController
+class Admin extends BaseController
 {
     protected $produkModel;
     protected $stokisModel;
@@ -42,7 +42,7 @@ class admin extends BaseController
         $data = [
             'title' => 'Stok Produk',
             'produk' => $this->produkModel->findAll(),
-            'stok' => $this->produkModel->ProdukStokisStok('91')->findAll()
+            'stok' => $this->produkModel->ProdukStokisStok('363')->findAll()
         ];
 
         return view('pages/admin/stok', $data);
@@ -51,7 +51,7 @@ class admin extends BaseController
     public function stokAdd()
     {
         $produk = $this->produkModel->find($this->request->getVar('idProduk'));
-        $idStokis = '91';
+        $idStokis = '363';
 
         $data = [
             'id_stok'   => $idStokis.'-'.$produk['id_produk'],
@@ -108,20 +108,20 @@ class admin extends BaseController
 
     public function produkSave()
     {
-        // //admbil filegambar
-        // $filegambar = $this->request->getFile('gambar');
-        // //ambil nama file
-        // $namaFile = $filegambar->getName();
-        // //compres image dan simpan
-        // \Config\Services::image('gd')->withFile($filegambar)->resize(80, 80, true, 'height')->save('assets\images\products\thumb' . $namaFile, 90);
-        // \Config\Services::image('gd')->withFile($filegambar)->resize(200, 200, true, 'height')->save('assets\images\products\small' . $namaFile, 90);
-        // //get real size for detail
-        // $filegambar->move('assets\images\stokisapp\products', null, true);
+        //admbil filegambar
+        $filegambar = $this->request->getFile('gambar');
+        //ambil nama file
+        $namaFile = $filegambar->getName();
+        //compres image dan simpan
+        \Config\Services::image('gd')->withFile($filegambar)->resize(80, 80, true, 'height')->save('assets\images\products\thumb' . $namaFile, 90);
+        \Config\Services::image('gd')->withFile($filegambar)->resize(200, 200, true, 'height')->save('assets\images\products\small' . $namaFile, 90);
+        //get real size for detail
+        $filegambar->move('assets\images\stokisapp\products', null, true);
 
         $this->produkModel->save([
             'id_produk' => $id,
             'nama' => $this->request->getVar('nama'),
-            // 'gambar' => $namaFile,
+            'gambar' => $namaFile,
             'deskripsi' => $this->request->getVar('deskripsi'),
             'harga' => $this->request->getVar('harga'),
             'diskon_distributor' => $this->request->getVar('dDistributor'),
