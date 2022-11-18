@@ -21,7 +21,7 @@
     <!-- ======== sidebar-nav start =========== -->
     <aside class="sidebar-nav-wrapper" style="overflow:hidden">
         <div class="navbar-logo">
-            <a href="index.html">
+            <a href="/">
                 <img src="/assets/images/logo/logo.svg" alt="logo" />
             </a>
         </div>
